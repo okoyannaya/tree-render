@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "dom"],
+    "target": "es2017", // Целевая версия JavaScript
+    "module": "commonjs", // Тип модуля
+    "outDir": "./", // Папка для скомпилированных файлов (будет в корне проекта)
+    "strict": true, // Включить строгий режим
+    "esModuleInterop": true // Поддержка импорта ES6
+  },
+  "include": [
+    "*.ts" // Включить все .ts файлы в корне проекта
+  ],
+  "exclude": [
+    "node_modules" // Исключить папку node_modules, если она есть
+  ]
+}
